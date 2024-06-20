@@ -1,5 +1,6 @@
 import LeftSidebar from "@/components/LeftSidebar";
 import RightSidebar from "@/components/RightSidebar";
+import Mobilenav from "@/components/mobilenav";
 
 
 import type { Metadata } from "next";
@@ -18,7 +19,7 @@ export default function RootLayout({
           <div className="mx auto flex w-full max-w-5xl flex-col max-sm:px-4">
             <div className="flex h-16 justify-between items-center md:hidden">
             <Image src='/assets/Capa_1.svg' alt='logo' width={30} height={30}/>
-            <mo
+            <Mobilenav />
             </div>
             <div>
               toaster(notification)
